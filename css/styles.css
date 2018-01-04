@@ -3,10 +3,6 @@
  header
  ****************/
 header {
-  /* floating header */
-  position: fixed;
-  z-index: 1000;
-  top: 0;
 
   /* header styles */
   background-color: #141414;
@@ -33,6 +29,8 @@ header span {
   /* flexbox */
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 
   /* styles */
   padding: 10px 0 10px;
@@ -42,8 +40,8 @@ header span {
 
 ul li{
   list-style-type: none;
-  display: inline-block;
-  padding: 10px 0;
+  display: block;
+  padding: 0;
 }
 
 .main-nav:first-child {
@@ -53,6 +51,8 @@ ul li{
 .main-nav  li a {
   color: white;
   text-decoration: none;
+  display: block;
+  padding: 10px 50px;
 }
 
 /* main */
@@ -94,8 +94,29 @@ footer p {
  media queries
  ****************/
 
-@media (min-width: 450px) {
+@media (min-width: 350px) {
 
+  header {
+    /* floating header */
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+
+  .main-nav {
+    flex-direction: row;
+    align-items: normal;
+    justify-content: space-around;
+  }
+  .main-nav li {
+    padding: auto;
+  }
+
+  .main-nav  li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 720px) {
@@ -115,9 +136,7 @@ footer p {
   }
 
   .main-nav {
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    display: inline-block;
+    flex-wrap: wrap;
     width: auto;
     margin: 0 20px;
   }
