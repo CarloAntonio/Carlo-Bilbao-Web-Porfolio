@@ -1,40 +1,62 @@
 
-/* header */
+/****************
+ header
+ ****************/
 header {
-  padding: 25px;
-  background-color: #141414;
+  /* floating header */
   position: fixed;
-  clear: both;
-  width: 100%;
   z-index: 1000;
   top: 0;
+
+  /* header styles */
+  background-color: #141414;
+  padding: 20px 0 0;
+  width: 100%;
+
+  /* child styles */
+  text-align: center;
+
+  /* flexbox */
+  display: flex;
+  flex-wrap: wrap;
+
+  /* random */
+  /* clear: both; */
+
 }
 
-header img {
-  width: 20px;
-  padding-left: 1%;
+/* brand */
+
+header span {
+  color: white;
+  margin: auto 0;
+  flex: 1 100%;
+
 }
 
-/* Nav */
+/* nav */
 
 .main-nav {
-  position: absolute;
-  top: 12.5px;
-  right: 10%;
+  flex: 1;
+  padding-bottom: 0;
+}
+
+.main-nav {
+  padding-left:0;
 }
 
 ul li{
   list-style-type: none;
   display: inline-block;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   padding: 0 5px;
 }
 
-.main-nav ul:first-child {
+.main-nav:first-child {
   margin-left: 0;
 }
 
-.main-nav ul li a {
+.main-nav  li a {
   color: white;
   text-decoration: none;
 }
