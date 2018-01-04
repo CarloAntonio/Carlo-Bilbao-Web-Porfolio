@@ -10,18 +10,13 @@ header {
 
   /* header styles */
   background-color: #141414;
-  padding: 20px 0 0;
   width: 100%;
-
-  /* child styles */
-  text-align: center;
 
   /* flexbox */
   display: flex;
   flex-wrap: wrap;
-
-  /* random */
-  /* clear: both; */
+  flex-direction: column;
+  align-items: center;
 
 }
 
@@ -29,27 +24,28 @@ header {
 
 header span {
   color: white;
-  margin: auto 0;
-  flex: 1 100%;
-
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #daa520;
 }
 
 /* nav */
 
 .main-nav {
-  flex: 1;
-  padding-bottom: 0;
-}
+  /* flexbox */
+  display: flex;
+  justify-content: space-around;
 
-.main-nav {
-  padding-left:0;
+  /* styles */
+  padding: 10px 0 10px;
+  margin: 0;
+  width: 100%;
+
 }
 
 ul li{
   list-style-type: none;
   display: inline-block;
-  /* margin-left: 10px; */
-  padding: 0 5px;
+  padding: 10px 0;
 }
 
 .main-nav:first-child {
@@ -94,4 +90,20 @@ footer p {
   margin: 0;
   text-align: center;
   color: white;
+}
+
+/****************
+ media queries
+ ****************/
+
+@media (min-width: 550px) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header span {
+    padding: 20px;
+  }
 }
