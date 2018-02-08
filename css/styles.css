@@ -66,7 +66,12 @@ footer ul li {
 /****************
  header
  ****************/
+/* header */
 header {
+  /* floating header */
+  position: fixed;
+  z-index: 1000;
+  top: 0;
   /* header styles */
   background-color: #141414;
   width: 100%;
@@ -77,7 +82,7 @@ header {
   align-items: center; }
   header span {
     color: white;
-    padding: 20px 0 10px;
+    padding: 10px 0 10px;
     border-bottom: 1px solid #daa520; }
 
 /* nav */
@@ -85,67 +90,41 @@ header {
   /* flexbox */
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
   align-items: center;
   /* styles */
-  padding: 10px 0 10px;
+  padding: 0;
   margin: 0;
   width: 100%; }
-
-.main-nav li {
-  list-style-type: none;
-  display: block;
-  padding: 0; }
+  .main-nav li {
+    list-style-type: none; }
 
 .main-nav:first-child {
   margin-left: 0; }
 
-.main-nav li a {
+.main-nav a {
   color: white;
   text-decoration: none;
   display: block;
-  padding: 10px 50px; }
+  padding: 10px; }
 
-@media (min-width: 350px) {
-  header {
-    /* floating header */
-    position: fixed;
-    z-index: 1000;
-    top: 0; }
-
-  .main-nav {
-    flex-direction: row;
-    align-items: normal;
-    justify-content: space-around; }
-
-  .main-nav li {
-    padding: auto; }
-
-  .main-nav li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px; } }
-@media (min-width: 720px) {
+@media (min-width: 600px) {
   /* header content */
   header {
     flex-direction: row;
     align-items: normal;
-    justify-content: space-between; }
-
-  header span {
-    border-bottom: none;
-    border-right: 1px solid #daa520;
-    border-left: 1px solid #daa520;
-    padding: 0 32px;
-    align-self: center;
-    margin-left: 32px; }
+    justify-content: space-between;
+    padding: 5px 0; }
+    header span {
+      border-bottom: none;
+      border-right: 1px solid #daa520;
+      border-left: 1px solid #daa520;
+      padding: 0 32px;
+      align-self: center;
+      margin-left: 32px; }
 
   .main-nav {
     flex-wrap: wrap;
     width: auto;
-    margin: 0 20px; }
-
-  .main-nav li {
-    padding: 10px 20px; } }
+    margin: 0 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
