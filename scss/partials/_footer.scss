@@ -1,0 +1,29 @@
+
+/* footer */
+footer {
+  padding-bottom: 10px;
+  background-color: #141414;
+
+  p {
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+
+  li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+ul img {
+  width: 20px;
+}
