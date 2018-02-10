@@ -3,42 +3,6 @@
  main
  ****************/
 
-/* hero image */
-
-.hero-div {
-  background-image: url('../assets/hero.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 84px;
-  width: 100%;
-  height: 700px;
-}
-
-.hero-div img {
-  width: 100%;
-  height: 500px;
-  opacity: .5;
-}
-
-.intro-content {
-  padding-top: 20px;
-}
-
-.intro-content p {
-  font-size: 32px;
-  color: white;
-  line-height: 1em;
-}
-
-.intro-content p:first-child {
-  color: #daa520;
-}
-
-.carlo-image {
-  width: 300px;
-  border-radius: 5%;
-}
 
 /****************
  media queries
