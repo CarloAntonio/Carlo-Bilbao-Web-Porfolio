@@ -1,4 +1,7 @@
 /****************
+ Style Variables
+ ****************/
+/****************
  main
  ****************/
 /****************
@@ -48,6 +51,8 @@ header {
   text-decoration: none;
   display: block;
   padding: 10px; }
+.main-nav a:hover {
+  color: #daa520; }
 
 @media (min-width: 600px) {
   /* header content */
