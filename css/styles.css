@@ -20,6 +20,7 @@ header {
   background-color: #141414;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 1px solid #d3d3d3;
   /* flexbox */
   display: flex;
   flex-wrap: wrap;
@@ -138,5 +139,10 @@ footer {
 
 ul img {
   width: 20px; }
+
+.contact-info {
+  background-color: #141414;
+  padding-top: 120px;
+  padding-left: 16px; }
 
 /*# sourceMappingURL=styles.css.map */
