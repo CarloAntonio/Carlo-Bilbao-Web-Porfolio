@@ -1,23 +1,38 @@
 
+main {
+  background-color: $color-black;
+}
+
 .contact-info {
-  background-color: #141414;
+  background-color: $color-black;
   padding-top: 120px;
   padding-left: 16px;
 
   p {
     color: $color-accent;
+    font-family: $normal-font;
     margin-bottom: 32px;
   }
 
-  h1 {
+  .email {
     color: #fff;
+    display: inline-block;
+    font-family: $normal-font;
     font-size: 32px;
     margin-bottom: 32px;
   }
 
+  .email:hover {
+    color: $color-accent;
+    text-decoration: none;
+  }
+
   h3 {
     color: #fff;
+    font-family: $normal-font;
+    font-size: 24px;
     padding-bottom: 64px;
+    padding-right: 48px;
   }
 
   ul {
@@ -36,10 +51,33 @@
     font-size: 24px;
     text-decoration: none;
     display: block;
-    padding: 0 10px 10px;
+    padding: 0 30px 10px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: $color-accent;
   }
 
   a:first-child {
     padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .contact-info {
+    h3 {
+      padding-right: 30vw;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .contact-info {
+    max-width: 1020px;
+    margin: 0 auto;
+    h3 {
+      padding-right: 30vw;
+    }
   }
 }

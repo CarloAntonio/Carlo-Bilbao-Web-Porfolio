@@ -20,7 +20,7 @@ header {
   background-color: #141414;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #84754f;
   /* flexbox */
   display: flex;
   flex-wrap: wrap;
@@ -140,20 +140,32 @@ footer {
 ul img {
   width: 20px; }
 
+main {
+  background-color: #141414; }
+
 .contact-info {
   background-color: #141414;
   padding-top: 120px;
   padding-left: 16px; }
   .contact-info p {
     color: #84754f;
+    font-family: "Source Sans Pro", sans-serif;
     margin-bottom: 32px; }
-  .contact-info h1 {
+  .contact-info .email {
     color: #fff;
+    display: inline-block;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 32px;
     margin-bottom: 32px; }
+  .contact-info .email:hover {
+    color: #84754f;
+    text-decoration: none; }
   .contact-info h3 {
     color: #fff;
-    padding-bottom: 64px; }
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 24px;
+    padding-bottom: 64px;
+    padding-right: 48px; }
   .contact-info ul {
     margin-bottom: 0;
     padding-bottom: 120px;
@@ -166,8 +178,21 @@ ul img {
     font-size: 24px;
     text-decoration: none;
     display: block;
-    padding: 0 10px 10px; }
+    padding: 0 30px 10px; }
+  .contact-info a:hover {
+    text-decoration: underline;
+    color: #84754f; }
   .contact-info a:first-child {
     padding-left: 0; }
+
+@media screen and (min-width: 600px) {
+  .contact-info h3 {
+    padding-right: 30vw; } }
+@media screen and (min-width: 1020px) {
+  .contact-info {
+    max-width: 1020px;
+    margin: 0 auto; }
+    .contact-info h3 {
+      padding-right: 30vw; } }
 
 /*# sourceMappingURL=styles.css.map */
