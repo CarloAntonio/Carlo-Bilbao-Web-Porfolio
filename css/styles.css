@@ -16,6 +16,7 @@ header {
   /* header styles */
   background-color: #141414;
   width: 100%;
+  font-family: 'Roboto Slab', serif;
   /* flexbox */
   display: flex;
   flex-wrap: wrap;
@@ -112,6 +113,7 @@ footer {
   padding-bottom: 10px;
   background-color: #141414; }
   footer p {
+    font-family: 'Roboto Slab', serif;
     margin: 0;
     text-align: center;
     color: white; }
