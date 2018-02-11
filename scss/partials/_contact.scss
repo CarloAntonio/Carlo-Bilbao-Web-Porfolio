@@ -6,5 +6,40 @@
 
   p {
     color: $color-accent;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  h3 {
+    color: #fff;
+    padding-bottom: 64px;
+  }
+
+  ul {
+    margin-bottom: 0;
+    padding-bottom: 120px;
+    display: flex;
+    padding-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px 10px;
+  }
+
+  a:first-child {
+    padding-left: 0;
   }
 }
