@@ -26,7 +26,7 @@ header {
   span {
     color: white;
     padding: 10px 0 10px;
-    border-bottom: 1px solid #daa520;
+    border-bottom: 1px solid $color-accent;
   }
 }
 
@@ -59,7 +59,7 @@ header {
     padding: 10px;
   }
   a:hover {
-    color: #daa520;
+    color: $color-accent;
   }
 }
 
@@ -73,8 +73,8 @@ header {
 
     span {
       border-bottom: none;
-      border-right: 1px solid #daa520;
-      border-left: 1px solid #daa520;
+      border-right: 1px solid $color-accent;
+      border-left: 1px solid $color-accent;
       padding: 0 32px;
       align-self: center;
       margin-left: 32px;
