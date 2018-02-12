@@ -1,0 +1,113 @@
+
+.about-div {
+  padding-top: 120px;
+}
+
+.about-intro {
+  padding-left: 16px;
+
+  p:first-of-type {
+    color: $color-accent;
+    font-family: $normal-font;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: $normal-font;
+    font-size: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+
+  p:nth-of-type(2) {
+    color: #fff;
+    font-family: $normal-font;
+    margin-bottom: 0;
+    padding-bottom: 80px;
+  }
+
+}
+
+.about-content {
+  background-color: #fff;
+  padding: 80px 16px;
+
+  p {
+    font-family: $normal-font;
+  }
+}
+
+.about-contact {
+  background-color: $color-accent;
+  padding-top: 80px;
+  padding-left: 16px;
+  padding-bottom: 80px;
+  color: #fff;
+
+  p {
+    color: $color-black;
+    font-family: $normal-font;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-family: $normal-font;
+    padding-bottom: 24px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    // color:
+  }
+
+}
+
+.about-other {
+  background-color: #fff;
+  padding: 80px 16px;
+
+  p:first-of-type {
+    color: $color-accent;
+  }
+
+  p {
+    font-family: $normal-font;
+  }
+}
+
+.about-content,
+.about-other {
+  a {
+    color: $color-accent;
+  }
+
+  a:hover {
+    background-color: $color-accent;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .about-content,
+  .about-contact,
+  .about-other {
+    padding-right: 20vw;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .about-content,
+  .about-contact,
+  .about-other {
+    padding-right: 30vw;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+}

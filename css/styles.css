@@ -145,6 +145,77 @@ footer {
 ul img {
   width: 20px; }
 
+.about-div {
+  padding-top: 120px; }
+
+.about-intro {
+  padding-left: 16px; }
+  .about-intro p:first-of-type {
+    color: #84754f;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 32px; }
+  .about-intro h1 {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 0; }
+  .about-intro p:nth-of-type(2) {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 80px; }
+
+.about-content {
+  background-color: #fff;
+  padding: 80px 16px; }
+  .about-content p {
+    font-family: "Source Sans Pro", sans-serif; }
+
+.about-contact {
+  background-color: #84754f;
+  padding-top: 80px;
+  padding-left: 16px;
+  padding-bottom: 80px;
+  color: #fff; }
+  .about-contact p {
+    color: #141414;
+    font-family: "Source Sans Pro", sans-serif; }
+  .about-contact h1 {
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-bottom: 24px; }
+  .about-contact a {
+    color: #fff;
+    text-decoration: none; }
+
+.about-other {
+  background-color: #fff;
+  padding: 80px 16px; }
+  .about-other p:first-of-type {
+    color: #84754f; }
+  .about-other p {
+    font-family: "Source Sans Pro", sans-serif; }
+
+.about-content a,
+.about-other a {
+  color: #84754f; }
+.about-content a:hover,
+.about-other a:hover {
+  background-color: #84754f;
+  text-decoration: none;
+  color: #fff; }
+
+@media screen and (min-width: 500px) {
+  .about-content,
+  .about-contact,
+  .about-other {
+    padding-right: 20vw; } }
+@media screen and (min-width: 750px) {
+  .about-content,
+  .about-contact,
+  .about-other {
+    padding-right: 30vw; } }
 main {
   background-color: #141414; }
 
