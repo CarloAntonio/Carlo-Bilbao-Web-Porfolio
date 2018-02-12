@@ -207,15 +207,36 @@ ul img {
   color: #fff; }
 
 @media screen and (min-width: 500px) {
+  .about-intro,
   .about-content,
   .about-contact,
   .about-other {
-    padding-right: 20vw; } }
+    padding-left: 32px;
+    padding-right: 20vw; }
+    .about-intro p,
+    .about-content p,
+    .about-contact p,
+    .about-other p {
+      font-size: 18px; } }
 @media screen and (min-width: 750px) {
+  .about-intro,
   .about-content,
   .about-contact,
   .about-other {
-    padding-right: 30vw; } }
+    padding-left: 64px;
+    padding-right: 20vw; } }
+@media screen and (min-width: 1020px) {
+  .about-intro,
+  .about-content,
+  .about-contact,
+  .about-other {
+    padding-left: 64px;
+    padding-right: 30vw; }
+    .about-intro p,
+    .about-content p,
+    .about-contact p,
+    .about-other p {
+      font-size: 20px; } }
 main {
   background-color: #141414; }
 
