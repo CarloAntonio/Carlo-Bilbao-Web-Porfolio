@@ -3,6 +3,7 @@
   padding-top: 120px;
 }
 
+
 .about-intro {
   padding-left: 16px;
 
@@ -77,6 +78,17 @@
 
   p {
     font-family: $normal-font;
+  }
+
+  video {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    padding-bottom: 24px;
+  }
+
+  p:nth-of-type(3) {
+    padding-top: 48px;
   }
 }
 

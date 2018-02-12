@@ -196,6 +196,13 @@ ul img {
     color: #84754f; }
   .about-other p {
     font-family: "Source Sans Pro", sans-serif; }
+  .about-other video {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    padding-bottom: 24px; }
+  .about-other p:nth-of-type(3) {
+    padding-top: 48px; }
 
 .about-content a,
 .about-other a {
