@@ -1,0 +1,19 @@
+
+.work-div {
+  background-color: $color-black;
+  padding-top: 120px;
+  padding-left: 16px;
+
+  p {
+    color: $color-accent;
+    font-family: $normal-font;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    color: #fff;
+    font-family: $normal-font;
+    font-size: 32px;
+    padding-bottom: 32px;
+  }
+}

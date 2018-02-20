@@ -145,6 +145,20 @@ footer {
 ul img {
   width: 20px; }
 
+.work-div {
+  background-color: #141414;
+  padding-top: 120px;
+  padding-left: 16px; }
+  .work-div p {
+    color: #84754f;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 32px; }
+  .work-div h1 {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    padding-bottom: 32px; }
+
 .about-div {
   padding-top: 120px; }
 
