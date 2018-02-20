@@ -16,3 +16,25 @@
     margin-bottom: 84px;
   }
 }
+
+.card-styles {
+  max-width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  .work-div {
+    h1 {
+      padding-right: 30vw;
+    }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .work-div {
+    max-width: 1020px;
+    margin: 0 auto;
+    h1 {
+      padding-right: 30vw;
+    }
+  }
+}
