@@ -10,8 +10,14 @@ $normal-font: 'Source Sans Pro', sans-serif;
 $bold-font: 'Titillium Web', sans-serif;
 
 /****************
- nav
+ clearfix
  ****************/
+
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /****************
  main
