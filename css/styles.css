@@ -136,6 +136,12 @@ ul img {
     line-height: 1em;
     margin-bottom: 5px; }
 
+.main-intro-container {
+  background-color: #fff; }
+
+.main-sample-container {
+  background-color: #84754f; }
+
 .main-intro-div {
   background-color: #fff;
   padding: 80px 0 20px;
@@ -209,13 +215,36 @@ ul img {
       font-size: 48px; }
     .overlay p {
       font-size: 24px;
-      padding-right: 30vw; } }
+      padding-right: 30vw; }
+
+  .sample-work h2 {
+    font-size: 34px; }
+
+  .main-intro-div p {
+    font-size: 1.2em;
+    padding-right: 10vw; } }
+@media (min-width: 700px) {
+  .main-intro-div h1:nth-of-type(2),
+  .main-sample-div h1:nth-of-type(2) {
+    padding-left: 16px;
+    float: left; }
+
+  .sample-work h2 {
+    margin-right: 20vw; } }
 @media (min-width: 850px) {
   .overlay h1 {
     font-size: 64px; }
   .overlay p {
     font-size: 24px;
-    padding-right: 40vw; } }
+    padding-right: 40vw; }
+
+  .sample-work h2 {
+    margin-right: 40vw; } }
+@media (min-width: 960px) {
+  .main-intro-div,
+  .main-sample-div {
+    max-width: 960px;
+    margin: 0 auto; } }
 .work-div {
   background-color: #fff;
   padding: 120px 0;
